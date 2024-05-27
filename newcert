@@ -1,0 +1,6 @@
+$params = @{
+    DnsName = 'allelitedevops.net', 'www.allelitedevops.net'
+    CertStoreLocation = 'Cert:\LocalMachine\My'
+}
+
+New-SelfSignedCertificate @params
